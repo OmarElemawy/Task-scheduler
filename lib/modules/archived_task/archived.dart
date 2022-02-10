@@ -15,7 +15,6 @@ class Archived extends StatelessWidget {
       return  listOfTasks(task: task);
     },
     listener: (BuildContext context,DatabaseState state) {
-
     },
     );
   }

@@ -35,7 +35,6 @@ class Home extends StatelessWidget {
             floatingActionButton:
             FloatingActionButton(
               onPressed: () {
-
                 if (cubit.isBottomSheet) {
                   if(formKey.currentState!.validate()) {
                     cubit.insertToDatabase
@@ -48,7 +47,6 @@ class Home extends StatelessWidget {
                       dateController.text="";
                       cubit.changeBottomSheetState(false);
                     });
-
                   }
                 }
                 else {
